@@ -1,4 +1,6 @@
-const apiKey = '1add7b65426dc801bddca96b2d793f51';
+// Insert your own OpenWeatherMap api key
+
+const apiKey = '';
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
 const locationInput = document.getElementById('locationInput');
@@ -34,8 +36,8 @@ function fetchWeather(location) {
     });
 }
 
-
-const gptApiKey = 'sk-proj-Iq0RjC3t46FptxZvwPruT3BlbkFJ7y3EBhxDcmtb4rFMhzye';
+// Insert your own ChatGPT api key
+const gptApiKey = '';
 const endpoint = 'https://api.openai.com/v1/chat/completions';
 
 async function chatGPT(prompt) {
